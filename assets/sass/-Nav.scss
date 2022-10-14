@@ -1,0 +1,60 @@
+#nav{
+    background-color: $Tcolor;
+    ul li a{
+        font-weight: $MfontW;
+        transition: all .3s ease-in-out;
+    }
+    a:hover{
+        color: $Scolor !important;
+    }
+    .navbutton{
+        display: flex;
+    }
+    button{
+        padding: 10px 25px;
+        border: 2px solid $Pcolor;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    .navBtn{
+        padding: 10px 25px;
+        background-color: $Pcolor;
+        color: $Wcolor;
+        border: 2px solid transparent;
+    }
+
+}
+@media  (min-width:400px) and (max-width:875px) {
+    .navbutton {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 105px;
+        left: 0;
+        background: rgba(240,239,255,.9450980392);
+        width: 100%;
+        padding: 30px;
+    }
+    #nav button {
+       background-color: transparent;
+       border: 2px solid black;
+       margin-left:0;
+       margin-right: 10px;
+    } 
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbutton .navBtn{
+        margin-left: 10px;
+    } .Hnav {
+        padding: 10px 0px;
+    }
+   
+    
+}

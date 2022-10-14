@@ -1,0 +1,26 @@
+*,*::after,*::before{
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+
+    padding: 0rem 2rem;
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 400px) and (max-width:875px){
+    .full-col{
+        width: 100%;
+        margin: 20px auto;
+    }
+}

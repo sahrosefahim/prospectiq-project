@@ -1,0 +1,40 @@
+#header{
+    .allBtn{
+        button{
+        padding: 10px 25px;
+        border: 2px solid $Pcolor;
+        border-radius: 10px;
+        background-color: transparent;
+        font-weight: $MfontW;
+        transition: all .3s ease-in-out;
+        } .btn2{
+            background-color: $Scolor;
+            color: $Wcolor;
+            border: 2px solid transparent;
+            margin-left: 10px;
+        } .btn2:hover{
+            border: 2px solid $Bcolor;
+            background-color: transparent;
+            color: $Bcolor;
+        } 
+        .btn1:hover{
+            background-color: $Scolor;
+            color: $Wcolor;
+            border: 2px solid transparent;
+        }
+    }
+}
+
+@media (min-width: 400px) and (max-width:875px){
+    #header .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image {
+        display: flex;
+        justify-content: center;
+    }
+    #header img{
+        width: 70%;
+    }
+}

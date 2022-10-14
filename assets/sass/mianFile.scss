@@ -1,0 +1,23 @@
+
+// color
+$Pcolor: #021639;
+$Scolor: #877BFB;
+$Tcolor: #F0EFFF;
+$Wcolor: #ffffff;
+$Bcolor: #000000;
+
+// fontWaight
+$BfontW: 800;
+$SBfontW: 700;
+$MfontW: 600;
+$RfontW: 400;
+
+@import "./-Nav.scss";
+
+@import "./-header.scss";
+
+@import "./-about.scss";
+
+@import "./-iconSection.scss";
+
+@import "./-contact.scss";

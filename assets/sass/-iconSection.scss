@@ -1,0 +1,51 @@
+#icon{
+    .titel{
+        text-align: center;
+        margin-bottom: 20px;
+    } .titel h1{
+        font-weight: $BfontW;
+    } .mainIcon{
+        display: flex;
+        flex-direction: row;
+        line-height: 1.9rem;
+    } .mainIcon .iconTitel{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin: 20px auto;
+    }.iconTitel h3{
+        font-weight: $MfontW;
+        color: $Scolor;
+        font-size: 25px;
+    }
+    .iconTitel img{
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+        background-color: $Tcolor;
+        padding: 20px;
+        border-radius: 10px;
+    } .mainIcon p{
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width:875px){
+    .mainIcon {
+        width: 100%;
+    }
+    .mainIcon .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #icon h1{
+        font-size: 25px
+    } 
+    #icon .iconTitel img {
+        width: 60px;
+        height: 60px;
+    }
+    #icon .iconTitel h3 {
+        font-size: 20px;
+    }
+}
